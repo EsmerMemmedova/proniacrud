@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1EWIryfEloBzKc1ruQ6ym52bo20q8Yk/pnABAtaJUwhbrwEd2cKKM0YusVscF/bi9VrSAMtoIo2fRpXzoih5yQ==",
+  "dgSpecHash": "VDgVks5RQZhaK8Ncd0SvwCCOkvlilqcQs0pcPm77Qq/1QBz+74fkARyClVMxrt0lfZ6Wmvkgec6/6S+Fw4Tu7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2022\\Desktop\\Pronia\\Pronia3\\Pronia3.csproj",
+  "projectFilePath": "C:\\Users\\2022\\Desktop\\Pronia3\\Pronia3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2022\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\2022\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

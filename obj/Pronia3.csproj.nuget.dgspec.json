@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2022\\Desktop\\Pronia\\Pronia3\\Pronia3.csproj": {}
+    "C:\\Users\\2022\\Desktop\\Pronia3\\Pronia3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2022\\Desktop\\Pronia\\Pronia3\\Pronia3.csproj": {
+    "C:\\Users\\2022\\Desktop\\Pronia3\\Pronia3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2022\\Desktop\\Pronia\\Pronia3\\Pronia3.csproj",
+        "projectUniqueName": "C:\\Users\\2022\\Desktop\\Pronia3\\Pronia3.csproj",
         "projectName": "Pronia3",
-        "projectPath": "C:\\Users\\2022\\Desktop\\Pronia\\Pronia3\\Pronia3.csproj",
+        "projectPath": "C:\\Users\\2022\\Desktop\\Pronia3\\Pronia3.csproj",
         "packagesPath": "C:\\Users\\2022\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2022\\Desktop\\Pronia\\Pronia3\\obj\\",
+        "outputPath": "C:\\Users\\2022\\Desktop\\Pronia3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2022\\AppData\\Roaming\\NuGet\\NuGet.Config",

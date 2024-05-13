@@ -49,6 +49,8 @@ namespace Pronia3.Areas.Admin.Controllers
             }
             return View(catagory);
         }
+
+        [HttpPost]
         public IActionResult Update(Catagory newcatagory)
 		{
 			var oldcatagory = _context.Catagories.FirstOrDefault(x => x.Id == newcatagory.Id);
@@ -56,6 +58,7 @@ namespace Pronia3.Areas.Admin.Controllers
 			{
 				return RedirectToAction("Index");
 			}
+
             if (!ModelState.IsValid)
             {
                 return View();

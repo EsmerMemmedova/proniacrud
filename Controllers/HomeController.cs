@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Pronia3.DAL;
 using Pronia3.Models;
+using Pronia3.ViewModel;
 using System.Diagnostics;
 
 namespace Pronia3.Controllers
@@ -16,11 +17,24 @@ namespace Pronia3.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            List<Product> products = await _context.Products.Include(x=>x.ProductPhotos).Where(x=>x.ProductPhotos.Count>0).ToListAsync();
-            return View(products);
+
+            List<Product> products = _context.Products.Include(x => x.ProductPhotos).Where(x => x.ProductPhotos.Count > 0).ToList();
+
+            HomeVM homeVM = new HomeVM()
+            {
+                Products = products,
+                Sliders = _context.Sliders.ToList()
+            };
+
+
+            return View(homeVM);
+
         }
+           
+
+        
       
         public IActionResult Detail(int? id)
         {
